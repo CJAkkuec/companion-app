@@ -151,6 +151,57 @@ footer li a {
   margin: 0 0 0 5vw;
 }
 
+/*JOURNAL: FORMULAR */
+
+.section__journal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 385px;
+}
+
+.form__list {
+  list-style: none;
+}
+
+label {
+  display: block;
+}
+
+.form__list__motto {
+  width: 315px;
+  height: 62px;
+}
+
+.form__list__notes {
+  width: 315px;
+  height: 124px;
+}
+
+/* JOURNAL: Button */
+
+.button__cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 315px;
+}
+
+.button__cont__option,
+.call-to-action {
+  width: 147px;
+  height: 48px;
+  padding: 12px 40px;
+  border-radius: 10px;
+  color: var(--tangerine-100);
+}
+
+.call-to-action {
+  width: 198px;
+  height: 48px;
+
+
 /* SVGs */
 
 .dash-i,
@@ -170,5 +221,5 @@ footer li a {
 .journal-i:hover {
   width: 1.5rem;
   height: 1.5rem;
-  fill: var(--denim-100);
+  fill: var(--denim-100);  
 }
