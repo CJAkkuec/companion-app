@@ -1,0 +1,74 @@
+:root {
+  --framebackground1: #ff5a36;
+  --framebackground2: #ff9c86;
+  --framebackground3: #ffbdaf;
+  --framebackground4: #ffded7;
+  --frametext1: #ffffff;
+  --frametext2: #ff5a36;
+}
+
+.headline {
+  font-size: 14px;
+  margin: 0 0 0 5vw;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.diagramm {
+  width: 400px;
+  margin: 0 0 0 5vw;
+}
+
+/*---FRAMES---*/
+.energy_frame {
+  border: solid;
+  border-radius: 4px;
+  margin: 8px auto 8px;
+  width: 90%;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*---FRAMES---*/
+
+/*---FRAME COLORS---*/
+
+#energy_frame_color1 {
+  background: var(--framebackground1);
+  border-color: var(--framebackground1);
+}
+
+#energy_frame_color2 {
+  background: var(--framebackground2);
+  border-color: var(--framebackground2);
+}
+
+#energy_frame_color3 {
+  background: var(--framebackground3);
+  border-color: var(--framebackground3);
+}
+
+#energy_frame_color4 {
+  background: var(--framebackground4);
+  border-color: var(--framebackground4);
+}
+
+/*---FRAME COLORS---*/
+
+/*---TEXT COLORS---*/
+
+.energy_frame_text_white {
+  color: var(--frametext1);
+  font-size: 24px;
+}
+.energy_frame_text_red {
+  color: var(--frametext2);
+  font-size: 24px;
+}
+
+/*---TEXT COLORS---*/
