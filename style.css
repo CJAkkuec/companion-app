@@ -52,6 +52,11 @@ main {
   height: auto;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 /* Header */
 
 header {
@@ -98,6 +103,52 @@ footer li {
 footer li a {
   text-decoration: none;
   color: var(--denim-200);
+}
+
+/*---ENERGY: FRAMES---*/
+.energy_frame {
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*---ENERGY: FRAME COLORS---*/
+
+.energy_frame_color1 {
+  background: var(--tangerine-100);
+}
+
+.energy_frame_color2 {
+  background: var(--tangerine-200);
+}
+
+.energy_frame_color3 {
+  background: var(--tangerine-300);
+}
+
+.energy_frame_color4 {
+  background: var(--tangerine-400);
+}
+
+/*---ENERGY: TEXT COLORS---*/
+
+.energy_frame_text_white {
+  color: #fff;
+  font: var(--font-body-large);
+}
+.energy_frame_text_red {
+  color: var(--tangerine-100);
+  font: var(--font-body-large);
+}
+
+/*---ENERGY: DIAGRAM---*/
+
+.diagramm {
+  width: 400px;
+  margin: 0 0 0 5vw;
 }
 
 /* SVGs */
