@@ -41,7 +41,6 @@ body {
   background: var(--medium-grey);
   padding: var(--body-padding);
   max-width: 375px;
-  max-height: 100vh;
   margin: auto;
 }
 
@@ -62,10 +61,17 @@ a {
 header {
   display: flex;
   position: fixed;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   background: url(./images/background_shape_1.svg);
   height: 58.99px;
   width: 375px;
+}
+
+header p {
+  font: var(--font-label);
+  color: var(--denim-200);
 }
 
 header h1 {
@@ -180,24 +186,18 @@ label {
 
 /* TEAMS: Article */
 
-.team-article {
-    height: 46px;
-    margin-top: 114px;
-}
-
-.team names li {
-    list-style-type: none;
-    border-collapse: ;
-    border: 1px solid ;
-    background: #FFFFFF;
-    border-radius: 6px 6px 0px 0px;   
-    width: 315px;
-    height: 50px;
-    padding-top: 1em;
-    border-radius: 0%;
-    line-height: 24px;
-    text-align: center;
-    color: #7589A2;
+.team-names li {
+  list-style-type: none;
+  border: 1px solid;
+  background: #ffffff;
+  border-radius: 6px 6px 0px 0px;
+  width: 315px;
+  height: 50px;
+  padding-top: 1em;
+  border-radius: 0%;
+  line-height: 24px;
+  text-align: center;
+  color: #7589a2;
 }
 
 /* JOURNAL: Button */
@@ -222,7 +222,7 @@ label {
 .call-to-action {
   width: 198px;
   height: 48px;
-
+}
 
 /* SVGs */
 
