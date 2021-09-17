@@ -1,0 +1,39 @@
+body {
+    font-family: "Open Sans";
+    font-style: normal;
+}
+
+h2 {
+    width: 50px;
+    height: 16px;
+    top: 114px;
+    left: 31px;
+    color: #193251;
+}
+
+article {
+    width: 50px;
+    height: 46px;
+    margin-top: 114px;
+    margin-left: 31px;
+}
+
+li {
+    list-style-type: none;
+    border-collapse: ;
+    border: 1px solid ;
+    background: #FFFFFF;
+    border-radius: 6px 6px 0px 0px;   
+    width: 315px;
+    height: 50px;
+    padding-top: 1em;
+    border-radius: 0%;
+    line-height: 24px;
+    text-align: center;
+    color: #7589A2;
+    box-sizing: border-box;
+}
+
+.team1 {
+    border-collapse: collapse;
+}
