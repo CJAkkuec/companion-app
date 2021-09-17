@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Companion App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <section class="section__journal">
+        <div class="date"></div>
+        <div>Rating:</div>
+        <div class="star-rating"></div>
+        <div>Comprehension:</div>
+        <div class="comprehension-rating"></div>
+        <form action="/my-handling-form-page" method="post">
+          <ul class="form__list">
+            <li>
+              <label for="msg">Motto:</label>
+              <textarea
+                class="form__list__motto"
+                id="msg"
+                name="user_message"
+                placeholder=""
+              ></textarea>
+            </li>
+            <li>
+              <label for="msg">Notes:</label>
+              <textarea
+                class="form__list__notes"
+                id="msg"
+                name="user_message"
+                placeholder=""
+              ></textarea>
+            </li>
+            <li class="button__cont">
+              <button class="button__cont__option button__cancel" type="submit">
+                Cancel
+              </button>
+              <button class="button__cont__option button__save" type="submit">
+                Save
+              </button>
+            </li>
+          </ul>
+        </form>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
