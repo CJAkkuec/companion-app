@@ -48,7 +48,7 @@ main {
   background: #fff;
   width: 375px;
   padding: 5rem 1rem 5rem 1rem;
-  height: auto;
+  min-height: 100vh;
 }
 
 a {
@@ -75,7 +75,28 @@ header p {
 }
 
 header h1 {
-  margin-top: 1rem;
+  font: var(--font-title);
+  color: var(--denim-100);
+}
+
+.header-tall {
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(./images/background_shape_2.svg);
+  height: 81px;
+  width: 375px;
+}
+
+.header-tall p {
+  font: var(--font-label);
+  color: var(--denim-200);
+}
+
+.header-tall h1 {
+  margin: -1rem 0 0.3rem 0;
   font: var(--font-title);
   color: var(--denim-100);
 }
@@ -196,27 +217,38 @@ footer li a {
 .team-names li {
   list-style-type: none;
   border: 1px solid;
-  background: #ffffff;
+  background: #fff;
   border-radius: 6px 6px 0px 0px;
-  width: 315px;
   height: 50px;
   padding-top: 1em;
-  border-radius: 0%;
+  border-radius: 0;
   line-height: 24px;
   text-align: center;
-  color: #7589a2;
+  color: var(--denim-200);
+  margin-top: -1px; /* simuliert border-collapse*/
+}
+
+.team-names h2 {
+  font: var(--font-headline);
+  color: var(--denim-100);
+  margin: 1rem 0 0.5rem 0;
 }
 
 /* CODE BUDDIES */
 
 .buddys {
+  margin-top: 1.5rem;
   position: relative;
+  margin-bottom: 1rem;
 }
 
 .pairs {
-  background: transparent;
+  fill: var(--denim-100);
   position: absolute;
-  right: -10em;
+  z-index: 1;
+  width: 20px;
+  height: 20px;
+  right: 11em;
   top: 2.5em;
 }
 
