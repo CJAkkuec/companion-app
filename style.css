@@ -210,10 +210,12 @@ label {
 
 .form__list__motto {
   height: 62px;
+  resize: none;
 }
 
 .form__list__notes {
   height: 124px;
+  resize: none;
 }
 
 /* __Font Style */
