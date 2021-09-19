@@ -191,6 +191,34 @@ footer li a {
   margin: 2px 10.5px 3px 9.5px;
 }
 
+/* TEAMS: Article */
+
+.team-names li {
+  list-style-type: none;
+  border: 1px solid;
+  background: #ffffff;
+  border-radius: 6px 6px 0px 0px;
+  width: 315px;
+  height: 50px;
+  padding-top: 1em;
+  border-radius: 0%;
+  line-height: 24px;
+  text-align: center;
+  color: #7589a2;
+}
+
+/* CODE BUDDIES */
+
+.buddys {
+    position: relative;
+}
+
+.pairs {
+    position: absolute;
+    right: -10em;
+    top: 2.5em;
+}
+
 /*JOURNAL: FORMULAR */
 
 .section__journal {
@@ -262,22 +290,6 @@ label {
 
 .form__list__notes {
   margin-bottom: 1.9em;
-}
-
-/* TEAMS: Article */
-
-.team-names li {
-  list-style-type: none;
-  border: 1px solid;
-  background: #ffffff;
-  border-radius: 6px 6px 0px 0px;
-  width: 315px;
-  height: 50px;
-  padding-top: 1em;
-  border-radius: 0%;
-  line-height: 24px;
-  text-align: center;
-  color: #7589a2;
 }
 
 /* JOURNAL: Button */
