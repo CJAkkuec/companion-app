@@ -210,13 +210,14 @@ footer li a {
 /* CODE BUDDIES */
 
 .buddys {
-    position: relative;
+  position: relative;
 }
 
 .pairs {
-    position: absolute;
-    right: -10em;
-    top: 2.5em;
+  background: transparent;
+  position: absolute;
+  right: -10em;
+  top: 2.5em;
 }
 
 /*JOURNAL: FORMULAR */
