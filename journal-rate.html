@@ -12,16 +12,25 @@
   </head>
   <body>
     <header><h1>Journal</h1></header>
-    <main> <section class="section__journal">
+    <main>
+      <section class="section__journal">
         <div class="date"></div>
-        <div>Rating:</div>
-        <div class="star-rating"></div>
-        <div>Comprehension:</div>
-        <div class="comprehension-rating"></div>
+        <div class="star__rating">
+          <span class="star__rating__item journal__rate__label">Rating</span>
+          <div class="star__rating__scale"></div>
+        </div>
+
+        <div class="comp__rating">
+          <span class="comp__rating__item journal__rate__label"
+            >Comprehension</span
+          >
+          <div class="comp__rating__scale"></div>
+        </div>
+
         <form action="/my-handling-form-page" method="post">
           <ul class="form__list">
             <li>
-              <label for="msg">Motto:</label>
+              <label for="msg" class="journal__rate__label">Motto:</label>
               <textarea
                 class="form__list__motto"
                 id="msg"
@@ -30,7 +39,7 @@
               ></textarea>
             </li>
             <li>
-              <label for="msg">Notes:</label>
+              <label for="msg" class="journal__rate__label">Notes:</label>
               <textarea
                 class="form__list__notes"
                 id="msg"
@@ -48,7 +57,8 @@
             </li>
           </ul>
         </form>
-      </section></main>
+      </section>
+    </main>
     <div class="container-footer">
       <footer>
         <ul>

@@ -209,13 +209,59 @@ label {
 }
 
 .form__list__motto {
-  width: 315px;
   height: 62px;
 }
 
 .form__list__notes {
-  width: 315px;
   height: 124px;
+}
+
+/* __Font Style */
+
+.date {
+  color: var(--denim-100);
+  font: var(--font-headline-uppercase);
+  text-transform: uppercase;
+}
+
+.star__rating__item,
+.comp__rating__item,
+.motto__input__item,
+.notes__input__item {
+  color: var(--denim-200);
+  font: var(--font-label);
+  padding-top: 1.25em;
+  padding-bottom: 0.5em;
+}
+
+.journal__rate__label {
+  color: var(--denim-100);
+  font: var(--font-label);
+  padding-top: 1.25em;
+  padding-bottom: 0.5em;
+}
+
+.motto__input__text {
+  color: var(--denim-100);
+  font: normal 600 16px/16px "Open Sans";
+}
+
+.notes__input__text {
+  color: var(--denim-100);
+  font: var(--font-body-small);
+}
+
+/* __Box Style */
+
+.form__list__motto,
+.form__list__notes {
+  border: var(--medium-grey-border);
+  border-radius: 4px;
+  width: 315px;
+}
+
+.form__list__notes {
+  margin-bottom: 1.9em;
 }
 
 /* TEAMS: Article */
@@ -244,18 +290,42 @@ label {
   width: 315px;
 }
 
+/* __Button Reset */
+.button__cont__option,
+.call-to-action {
+  border: none;
+  background-color: transparent;
+  font-family: inherit;
+  padding: 0;
+  cursor: pointer;
+}
+
 .button__cont__option,
 .call-to-action {
   width: 147px;
   height: 48px;
-  padding: 12px 40px;
-  border-radius: 10px;
-  color: var(--tangerine-100);
+  border-radius: 4px;
+  background: var(--tangerine-100);
+  color: #ffffff;
+  font: var(--font-body-large), bold;
+  text-align: center;
+  border-color: var(--tangerine-100);
+}
+
+:hover {
+}
+
+:focus {
+}
+
+:active {
 }
 
 .call-to-action {
   width: 198px;
   height: 48px;
+  display: block;
+  margin: 0 auto;
 }
 
 /* SVGs */
